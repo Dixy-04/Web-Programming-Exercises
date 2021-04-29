@@ -1,5 +1,5 @@
 <?php
-include("cek.php");
+include("cekCookie.php");
 
 echo "<h1>Ini Page 3</h1>";
 echo "<p>Selamat datang ".$_COOKIE['namauser']."</p>";
