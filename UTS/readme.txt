@@ -1,4 +1,4 @@
-link = 
+link = http://game-k3519023.epizy.com/
 
 index.html adalah halaman awal (login)
 setUname.php adalah menyimpan input dari index.html menjadi cookie
