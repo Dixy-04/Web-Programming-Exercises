@@ -13,3 +13,5 @@ Hallo <?php echo $_COOKIE["Nama"]; ?>, Selamat datang di Game Penjumlahan!!!
 
 <!-- jika pengguna salah -->
 Bukan anda? <a href="logout.php">(klik di sini)</a>
+<br>
+Cek peringkat? <a href="leaderboard.php">(klik di sini)</a>
