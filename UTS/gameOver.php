@@ -37,7 +37,7 @@ if(mysqli_num_rows($result) > 0) {
     // $x adalah untuk penomoran
     $x = 1;
     echo "<table>";
-    echo "<tr><td>No.</td><td>Nama</td><td>Skor</td></tr>";
+    echo "<tr><td>Rank</td><td>Nama</td><td>Skor</td></tr>";
     //mengambil satuan data
     while($row = mysqli_fetch_assoc($result)) {
         //membuat tabel
@@ -59,4 +59,4 @@ mysqli_close($connect);
 <br>
 Hello <?php echo $nama; ?>… Sayang permainan sudah selesai, semoga kali lain bisa lebih baik... Jika sudah baik pertahankan!!<br>
 Score Anda : <?php echo $skor;?><br>
-<a href="home.php" > Main Lagi </a>
+<a href="home.php" > Home </a>
