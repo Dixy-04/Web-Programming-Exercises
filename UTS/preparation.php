@@ -16,6 +16,6 @@ setcookie("num2",$num2);
 <!-- untuk memulai permainan -->
 <form action="game.php" method="post">
     Berapakah hasil dari <?php echo $num1;?> + <?php echo $num2;?> = 
-    <input name="jawaban" type="text" onkeypress="return event.charCode ==13 || event.charCode >= 48 && event.charCode <=57" required/>
+    <input name="jawaban" type="text" onkeypress="return event.charCode == 13 || event.charCode >= 48 && event.charCode <= 57" required/>
     <input type="submit" value="Jawab">
 </form>
