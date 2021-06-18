@@ -1,0 +1,263 @@
+body{
+	background-color: #383535;
+}
+/*-------------------------------------------------------------------------------------------Navbar----------------------------------------------------------------*/
+.navbar{
+	position: relative;
+	background-color:#242423;
+
+}
+.navbar a img{
+	height: 25px;
+	width: 100px;
+	
+}
+.navbar-brand{
+	font-family: cursive;
+}
+.nav-link{
+	margin-right:30px;
+	position: relative;
+
+}
+.nav-item{
+ color: white !important;
+}
+.nav-item:hover{
+	color: orange!important;
+	transition: 0.5s;
+}
+.active{
+	color: orange !important;
+}
+/*-----------------------------------------------------------------------------------------Landing-----------------------------------------------------------------*/
+.jumbotron{
+	background-image: url(image/landing.png);
+	background-size: cover;
+	width: cover;
+	background-position: center;
+	position: relative;
+	margin-bottom: 0 !important;
+	text-align: center;
+	height: 55%;
+
+}
+.jumbotron .tombol{
+	border-radius: 7px;
+	margin-left: 10px;
+	border-color: none;
+	background-color:transparent;
+	border-color: yellow;
+	color: white;
+	position: relative;
+	z-index: 1;
+}
+
+.jumbotron::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 50%;
+	position: absolute;
+	bottom: 0;
+
+}
+.jumbotron .display-4{
+	margin-top: 150px;
+	color: white;
+	font-weight: 200;
+	font-size: 40px;
+	font-family: 'Abel';
+	position: relative;
+	z-index: 1;
+
+}
+/*-----------------------------------------------------------------------------------Conten Index-----------------------------------------------------------------*/
+.display-5{
+	color: orange;
+	font-family: 'Abel';
+}
+.display-6{
+	text-align: left;
+	font-family: 'Abel';
+	color: orange;
+	margin-top: 10%;
+}
+.display-6 h2{
+	text-align: right;
+	font-family: 'Abel';
+	color: red;
+}
+.display-7{
+	color: black !important;
+	text-align: left;
+}
+.playgame .row p{
+	color: white;
+}
+.section-title{
+	margin-top: 10px;
+}
+.cotent,.row2{
+	position: absolute;
+	background-color: transparent;
+}
+/*-----------------------------------------------------------------------------------Conten spek A-----------------------------------------------------------------*/
+.spek{
+	background-color: white;
+	margin-top: 50px;
+}
+.img-fluid{
+	margin-top: 10px;
+}
+.container{
+	margin-top: 50px;
+	}
+.container h2{
+	color: orange;
+	font-family: "Abel"
+}
+.container h3 {
+	text-align: center;
+	font-family: "Abel";
+	color: orange;
+}
+/*-----------------------------------------------------------------------------------Conten Spek-----------------------------------------------------------------*/
+.row,.col-md-5{
+	margin-top: 10px;
+}
+
+.col-md-5 .card{
+border-color: white;
+background-color: white;
+}
+.card .card-img-top{
+	background-color: white;
+}
+.card{
+background-color:#383535;
+border-color: orange;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+.mb-4{
+	color: white;
+}
+.card{
+	justify-content: center;
+	text-align: left;
+	display: flex;
+}
+.fa{
+	color: orange;
+
+}
+.modal-content{
+	background-color:transparent;
+	color: orange;
+	border-color: orange;
+}
+.modal-header{
+	border-bottom: 1px solid orange !important;
+}
+.card-body i{
+	align-items: center !important; 
+}
+
+/*-----------------------------------------------------------------------------------------Footer-----------------------------------------------------------------*/
+.page-footer .row{
+	color:#6b6b69 !important;
+	padding: 40px 0 30px; 
+	margin-top: 50px;
+	background-color: #242423;
+	border:10px;
+} 
+.footer-copyright{
+	color:#6b6b69!important;
+	text-align: center;
+}
+.col-lg-4{
+	text-align: left;
+	color:#6b6b69;
+
+}
+.btn .btn-go{
+	border-color: white;
+}
+.winfo{
+	color: white;
+}
+
+
+
+/*----------------------------------------------------------------------------------------Halaman Booking-----------------------------------------------------------------*/
+.container .form{
+	color: orange;
+}
+.col-lg-4{
+	margin-left: 10px;
+}
+/*----------------------------------------------------------------------------------------Halaman Contact------------------------------------------------------------------------*/
+
+.container .content-contact h1{
+	color: orange;
+}
+.container .content-contact p{
+	color: white;
+}
+/*----------------------------------------------------------------------------------------Halaman Contact------------------------------------------------------------------------*/
+@media(min-width: 992px){
+	.jumbotron .display-4{
+		margin-top: 100px
+		font-size: 60px;
+	}
+	.nav-link{
+		text-transform: uppercase;
+	}
+	.col-lg-4{
+	margin-left: 0px;
+	}
+	.jumbotron .display-4{
+		margin-top: 50px;
+	}
+	.display-6 {
+	text-align: right !important;
+	}
+	.display-7{
+	text-align: right!important;
+	}
+	.col-lg-6 .btn{
+	margin-left: 85%;
+	border-radius: 20px;
+	}
+}
+
+.reservation .jumbotron{
+	background-image: url(image/landing2.jpg);
+	background-size: cover;
+	width: cover;
+	background-position: center;
+	position: relative;
+	margin-bottom: 0 !important;
+	text-align: center;
+}
+.galeri .jumbotron{
+	background-image: url(image/landing3.jpg);
+	background-size: cover;
+	width: cover;
+	background-position: center;
+	position: relative;
+	margin-bottom: 0 !important;
+	text-align: center;
+}
+.contact .jumbotron{
+	background-image: url(image/landing4.png);
+	background-size: cover;
+	width: cover;
+	background-position: center;
+	position: relative;
+	margin-bottom: 0 !important;
+	text-align: center;
+}
